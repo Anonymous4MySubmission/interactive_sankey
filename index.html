@@ -11,24 +11,31 @@
             padding: 20px;
         }
         .title {
-            font-size: 2em;
+            font-size: 2.5em;
             margin-bottom: 0.5em;
         }
         .subtitle {
-            font-size: 1.2em;
+            font-size: 1.6em;
             margin-bottom: 1em;
         }
         .graph-container {
-            margin-top: 2em;
+        margin-top: 2em;
+        text-align: center; /* Center the content inside the container */
+        }
+        iframe {
+            display: block; /* Make the iframe a block element */
+            margin: 0 auto; /* Center the iframe horizontally */
+            width: 50%; /* Set a specific width for the iframe */
         }
     </style>
 </head>
 <body>
-    <div class="title">A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot</div>
+    <div class="title">A Survey on Generative Modeling with<br>
+    Limited Data, Few Shots, and Zero Shot</div>
     <div class="subtitle">Interactive Visualization of GM-DC Landscape</div>
     <div class="graph-container">
         <!-- Embed the interactive graph HTML here -->
-        <iframe src="path/to/interactive-graph.html" width="100%" height="600px" frameborder="0"></iframe>
+        <iframe src="sankey.html" width="50%" height="1600px" frameborder="0"></iframe>
     </div>
 </body>
 </html>
